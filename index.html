@@ -109,8 +109,32 @@
 
     <!-- Form section -->
 
-    <section>
-        <form action=""></form>
+    <section class=" my-40 my-50 bg-[#DFCECE30] py-35 w-screen flex justify-center items-center">
+        <form class="flex flex-col gap-[5rem]" action="get">
+            <div class="flex flex-col border border-[.5px] border-[button] w-[700px] outline-none h-[95px] items-center justify-center text-[2rem] bg-[white]">
+                <!-- <label for="firstname">ffff</label> <br> -->
+                <input class=" w-[700px]  h-[95px]" type="text" name="firstname" id="firstname" placeholder="">
+            </div>
+            <!--1 -->
+            <div class="flex  justify-between outline-none ">
+                <input class="border-[.5px] w-[330px] h-[95px] bg-white" type="text" name="firstname" id="firstname" placeholder="">
+                <input class="border-[.5px] w-[330px] h-[95px] bg-white" type="text" name="firstname" id="firstname" placeholder="">
+            </div>
+            <!-- 2 -->
+          
+            <div class="flex flex-col border border-[.5px] w-[700px] outline-none h-[95px] justify-center items-start font-light font-Poppins text-[2rem]">
+                <!-- <label for="firstname">ffff</label> <br> -->
+                <input class="w-[700px] h-[95px] bg-white" type="text" name="firstname" id="firstname" placeholder="">
+            </div>
+            <button type="button" class="place-self-center outline-none gap-2 flex justify-center items-center bg-button w-[520px] h-[95px]">
+                <img class="size-9" src="./Images/Vector.svg" alt="">
+                <p class="font-semibold  text-[30px] text-white cursor-pointer">Envoyer</p>
+            </button>
+        </form>
     </section>
+  
+    <footer class="flex bg-button justify-center items-center flex h-[30rem]">
+        <img class="size-120" src="./Images/logo-chococam 1.svg" alt="">
+    </footer>
 </body>
 </html>
